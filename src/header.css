@@ -1,0 +1,47 @@
+@import 'variables.css';
+
+.presentation{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.presentation__text{
+    width: 22rem;
+}
+
+.presentation__text-title{
+    font-size: var(--font-m);
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .presentation{
+        height: 50vh;
+        text-align: start;
+        display: flex;
+        justify-content: start;
+        padding-left: var(--padding-3);
+    }
+
+    .presentation__text{
+        width: 35.4rem;
+    }
+
+    .presentation__text-title{
+    font-size: var(--font-g);
+    }
+
+    .presentation__text-paragraph{
+        font-size: var(--font-p);
+    }
+}
+
+@media (min-width: 1200px) {
+    .presentation{
+        height: 100vh;
+        padding-left: var(--padding-5);
+    }
+}
