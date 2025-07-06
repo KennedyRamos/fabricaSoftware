@@ -1,5 +1,6 @@
 @import 'components/header.css';
 @import 'components/about.css';
+@import 'components/highlights.css';
 
 *{
     margin: 0;
