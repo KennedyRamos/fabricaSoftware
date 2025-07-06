@@ -1,0 +1,38 @@
+@import '../variables.css';
+
+.about{
+    margin: var(--margin-m) var(--margin-p);
+    text-align: center;
+    display: grid;
+    gap: var(--gap-m);
+}
+
+.about__services{
+    margin: 0 var(--margin-p);
+    display: grid;
+    gap: var(--gap-m);
+}
+
+@media (min-width: 768px) {
+    .about{
+        margin: var(--margin-m);
+    }
+
+    .about__services{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (min-width: 1200px) {
+    .about{
+        margin: var(--margin-m) var(--margin-g);
+    }
+
+    .about__intro{
+        margin: 0 var(--margin-g);
+    }
+
+    .about__services{
+        grid-template-columns: repeat(3, auto);
+    }
+}
