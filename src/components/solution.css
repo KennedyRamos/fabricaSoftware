@@ -1,0 +1,98 @@
+.solution {
+  display: flex;
+  flex-direction: column;   /* Empilha os cards */
+  gap: var(--gap-2);
+  padding: var(--padding-5) var(--padding-1);
+}
+
+.solution__card {
+  text-align: center;
+}
+
+.solution__card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.solution__card-info-title {
+  margin: var(--margin-p) 0;
+  font-size: var(--font-m);
+  color: #2E2E2E;
+}
+
+.solution__card-info-paragraph {
+  color: #808080;
+}
+
+.solution__card-info-button {
+    width: 100%;
+    padding: var(--padding-1);
+    border: none;
+    border-radius: 10px;
+    font-size: var(--font-p);
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: var(--margin-p);
+}
+
+@media (min-width: 720px) {
+  .solution {
+    padding: var(--padding-5) var(--padding-3);
+    gap: var(--gap-m);
+  }
+
+  .solution__card {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    gap: var(--gap-1);
+    height: 45vh;
+  }
+
+  .solution__card:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: start;
+    
+  }
+  
+  .solution__card-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+  .solution__card-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .solution__card-info-title{
+    font-size: var(--font-1);
+    margin-top: 0;
+  }
+
+  .solution__card-info-button{
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px){
+    .solution__card{
+        height: 50vh;
+    }
+    
+    .solution__card-info-title{
+        font-size: var(--font-m);
+        margin-top: 0;
+    }
+
+    .solution__card-info-button{
+        width: 20%;
+    }
+}

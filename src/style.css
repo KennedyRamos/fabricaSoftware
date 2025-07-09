@@ -1,6 +1,7 @@
 @import 'components/header.css';
 @import 'components/about.css';
 @import 'components/highlights.css';
+@import 'components/solution.css';
 
 *{
     margin: 0;
@@ -9,3 +10,6 @@
     font-family: "Manrope", sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
