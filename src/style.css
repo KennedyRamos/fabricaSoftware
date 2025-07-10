@@ -2,6 +2,7 @@
 @import 'components/about.css';
 @import 'components/highlights.css';
 @import 'components/solution.css';
+@import 'components/contact.css';
 
 *{
     margin: 0;

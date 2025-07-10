@@ -1,0 +1,23 @@
+@import '../variables.css';
+
+.contact{
+    text-align: center;
+    padding: var(--padding-5) var(--padding-1);
+}
+
+.contact__title{
+    font-size: var(--font-m);
+}
+
+.contact__paragraph{
+    margin: var(--margin-p) 0;
+}
+
+.contact__button{
+    padding: var(--padding-1) var(--padding-3);
+    font-size: var(--font-p);
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+}
