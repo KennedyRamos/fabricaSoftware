@@ -3,6 +3,7 @@
 @import 'components/highlights.css';
 @import 'components/solution.css';
 @import 'components/contact.css';
+@import 'components/footer.css';
 
 *{
     margin: 0;
