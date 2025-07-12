@@ -1,8 +1,8 @@
 .solution {
   display: flex;
-  flex-direction: column;   /* Empilha os cards */
+  flex-direction: column;
   gap: var(--gap-2);
-  padding: var(--padding-5) var(--padding-1);
+  padding: var(--padding-g) var(--padding-p);
 }
 
 .solution__card {
@@ -27,7 +27,7 @@
 
 .solution__card-info-button {
     width: 100%;
-    padding: var(--padding-1);
+    padding: var(--padding-p);
     border: none;
     border-radius: 10px;
     font-size: var(--font-p);
@@ -38,8 +38,8 @@
 
 @media (min-width: 720px) {
   .solution {
-    padding: var(--padding-5) var(--padding-3);
-    gap: var(--gap-m);
+    padding: var(--padding-g) var(--padding-m);
+    gap: var(--gap-3);
   }
 
   .solution__card {
@@ -73,7 +73,7 @@
   }
 
   .solution__card-info-title{
-    font-size: var(--font-1);
+    font-size: var(--font-p);
     margin-top: 0;
   }
 
@@ -88,7 +88,7 @@
     }
     
     .solution__card-info-title{
-        font-size: var(--font-m);
+        font-size: var(--font-g);
         margin-top: 0;
     }
 
