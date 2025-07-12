@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .references{
-    background-color: #dcdcdc;
+    background-color: #F4F5F7;
     padding: var(--padding-m) var(--padding-p);
     text-align: center;
 }
