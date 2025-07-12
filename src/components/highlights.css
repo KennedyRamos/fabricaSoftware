@@ -3,12 +3,12 @@
 .highlights{
     background-color: var(--primary-color);
     color: #fff;
-    padding: var(--padding-3) var(--padding-1);
+    padding: var(--padding-m) var(--padding-p);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: var(--gap-m);
+    gap: var(--gap-3);
 }
 
 .highlights__header{
@@ -24,7 +24,7 @@
     display: grid;
     justify-items: center;
     gap: var(--gap-2);
-    margin: 0 var(--margin-5);
+    margin: 0 var(--margin-g);
 }
 
 .highlights_Topics > img {

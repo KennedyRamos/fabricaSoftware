@@ -1,24 +1,24 @@
 :root{
     --primary-color: #F84646;
 
-    --font-g: 3.8rem;
-    --font-m: 2.5rem;
-    --font-2: 2rem;
+    --font-gg: 3.8rem;
+    --font-g: 2.5rem;
+    --font-m: 2rem;
     --font-p: 1.1rem;
     --font-pp: 0.8rem;
 
-    --margin-g: 6rem;
-    --margin-5: 5rem;
-    --margin-m: 4rem;
+    --margin-gg: 7rem;
+    --margin-g: 5rem;
+    --margin-m: 3rem;
     --margin-p: 1rem;
 
-    --padding-7: 7rem;
-    --padding-5: 5rem;
-    --padding-3: 3rem;
-    --padding-1: 1rem;
+    --padding-gg: 7rem;
+    --padding-g: 5rem;
+    --padding-m: 3rem;
+    --padding-p: 1rem;
 
-    --gap-m: 4rem;
-    --gap-p: 3rem;
+    --gap-4: 4rem;
+    --gap-3: 3rem;
     --gap-2: 2rem;
     --gap-1: 1rem;
 }

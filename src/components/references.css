@@ -2,7 +2,7 @@
 
 .references{
     background-color: #dcdcdc;
-    padding: var(--padding-3) var(--padding-1);
+    padding: var(--padding-m) var(--padding-p);
     text-align: center;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .references__text-title{
-    font-size: var(--font-2);
+    font-size: var(--font-m);
 }
 
 .references__companies{
@@ -20,7 +20,7 @@
     gap: var(--gap-1);
 }
 .references__companies-images{
-    padding: var(--padding-1);
+    padding: var(--padding-p);
     height: 5rem;
     width: 10rem;
     background-color: #fff;
@@ -45,7 +45,7 @@
     }
 
     .references__companies{
-        padding: var(--padding-1) var(--padding-5);
+        padding: var(--padding-p) var(--padding-g);
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     }
     
@@ -54,7 +54,7 @@
 @media (min-width: 1200px){
 
     .references__companies{
-        padding: var(--padding-1) var(--padding-7);
+        padding: var(--padding-p) var(--padding-gg);
         grid-template: repeat(3, 1fr) / repeat(5, 1fr);
     }
 

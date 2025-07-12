@@ -16,7 +16,7 @@
 }
 
 .presentation__text-title{
-    font-size: var(--font-m);
+    font-size: var(--font-g);
     font-weight: 900;
 }
 
@@ -26,7 +26,8 @@
         text-align: start;
         display: flex;
         justify-content: start;
-        padding-left: var(--padding-3);
+        padding-left: var(--padding-m);
+        background-size: cover;
     }
 
     .presentation__text{
@@ -34,7 +35,7 @@
     }
 
     .presentation__text-title{
-    font-size: var(--font-g);
+    font-size: var(--font-gg);
     }
 
     .presentation__text-paragraph{
@@ -45,6 +46,6 @@
 @media (min-width: 1200px) {
     .presentation{
         height: 100vh;
-        padding-left: var(--padding-5);
+        padding-left: var(--padding-g);
     }
 }
