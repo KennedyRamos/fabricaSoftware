@@ -30,7 +30,7 @@ O projeto está hospedado e pode ser acessado aqui:
 
 ## 📌 Objetivo
 
-Este projeto faz parte dos meus estudos na **Escola DNC**, com foco em:
+Este projeto faz parte dos meus estudos, com foco em:
 - Estrutura semântica de páginas web
 - Layout responsivo adaptável a diferentes tamanhos de tela
 - Boas práticas de desenvolvimento Front-End
