@@ -2,6 +2,7 @@
 @import 'components/about.css';
 @import 'components/highlights.css';
 @import 'components/solution.css';
+@import 'components/references.css';
 @import 'components/contact.css';
 @import 'components/footer.css';
 
@@ -14,4 +15,8 @@
 
 img{
     max-width: 100%;
+}
+
+button{
+    cursor: pointer;
 }
